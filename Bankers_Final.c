@@ -12,6 +12,7 @@ int n;    //n number of process
  pthread_mutex_t l;//MUTEX LOCK
  //********************************************
  //***************INPUT****************************
+
  void *input(){
      pthread_mutex_lock(&l);
      printf("\nEnter number of process :");
